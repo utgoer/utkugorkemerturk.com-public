@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Satisfy');
+
+body{
+    font: 15px/1.5 Raleway,sans-serif;
+    background-color:#f4f4f4;
+}
+
+.clickable{
+    cursor: pointer;
+}
+.navbar-custom{
+    background: #222;
+    border-bottom:#007aff 4px solid;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+header a{
+    text-transform: uppercase;
+    font-size:16px;
+    font-weight: bolder;
+}
+
+#brand {
+    text-transform: none;
+    font-size: 16px;
+}
+
+.section-line{
+    background: #007aff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.portrait{
+    height:16rem;
+}
+.footer-custom{
+    background: #222;
+    color: white;
+    font-weight: bolder;
+    font-size:16px;
+    border-top:#007aff 3px solid;
+}
+
+.fa-linkedin {
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    transition: .2s;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-linkedin:hover {
+    color: #0073a4;
+}
+
+.fa-github{
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    transition: .2s;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-github:hover{
+    color: #357d22;
+}
+
+.designed-by-signature:hover::after{
+    font-weight:normal;
+    color: #4cd964;
+    content: 'Powered By Nature';
+}
+
+.designed-by-signature::after{
+    font-weight:normal;
+    color: darkgray;
+    content: 'Designed by Utku Görkem Ertürk';
+}
+
+.current a{
+    color: #007aff !important;
+}
+
+/* Contact */
+
+.contact-form .textarea{ 
+    min-height:15rem; 
+    resize:none;
+}
+
+.form-control{ 
+    box-shadow:none; 
+    border-color:#eee; 
+    height: 3rem;
+}
+
+.form-control:focus{ 
+    box-shadow:none; 
+    border-color:#4cd964;
+}
+
+.main-btn{ 
+    background:#007aff; 
+    border-color:#5ac8fa; 
+    color:#fff;
+}
+
+.main-btn:hover{ 
+    background:#5ac8fa;
+    color:#fff;
+}
+
+/*.form-control-feedback {line-height: 50px;top: 0px;}*/
+/*.form-control-feedback{ line-height:50px;}*/
+
